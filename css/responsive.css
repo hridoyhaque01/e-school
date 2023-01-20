@@ -1,0 +1,126 @@
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 1199.98px) {
+  /* banner start  */
+
+  .banner-content h1 {
+    padding-right: 20px;
+    font-size: var(--font-40);
+  }
+  /* banner end  */
+
+  /* feature start  */
+
+  .common-sec {
+    padding: 40px 0 70px;
+  }
+
+  .single-feature {
+    padding: 30px;
+  }
+
+  .feat-title {
+    font-size: var(--font-20);
+  }
+
+  /* feature end  */
+
+  /* course start  */
+
+  .course-details p {
+    font-size: var(--font-15);
+  }
+
+  /* course end  */
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 991px) {
+  /* header start  */
+  .menu {
+    margin-top: 20px;
+    padding-left: 15px;
+  }
+
+  .menu ul {
+    margin-bottom: 20px;
+  }
+
+  /* header end  */
+
+  /* banner start  */
+
+  .banner-content {
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .banner-content h1 {
+    padding-right: 0;
+  }
+
+  .bnr-txt {
+    padding: 0 76px;
+    line-height: 32px;
+  }
+
+  .banner-img {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  /* banner end  */
+
+  /* course start  */
+
+  .title-area {
+    margin-bottom: 40px;
+  }
+
+  /* course end  */
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  /* header start  */
+  .logo img {
+    width: 80%;
+  }
+  /* header end  */
+
+  /* feature start  */
+
+  .common-sec {
+    padding: 20px 0 40px;
+  }
+
+  /* feature end  */
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* banner start  */
+
+  .banner {
+    padding: 40px 0;
+  }
+
+  .banner-content h1 {
+    font-size: var(--font-32);
+  }
+
+  .bnr-txt {
+    padding: 0;
+    line-height: 32px;
+  }
+
+  /* banner end  */
+
+  /* course start  */
+
+  .sec-title {
+    font-size: var(--font-28);
+    line-height: 48px;
+  }
+
+  /* course end  */
+}
