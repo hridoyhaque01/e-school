@@ -1,3 +1,0 @@
-#fd511a red
-black 000
-21b573 green

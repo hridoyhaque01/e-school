@@ -72,11 +72,24 @@
 
   /* course start  */
 
+  .single-course {
+    margin: 0 140px;
+  }
+
   .title-area {
     margin-bottom: 40px;
   }
 
   /* course end  */
+
+  /* footer start  */
+
+  .site-text {
+    margin: 0 140px;
+    text-align: center;
+  }
+
+  /* footer end  */
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -94,6 +107,26 @@
   }
 
   /* feature end  */
+
+  /* course start  */
+
+  .single-course {
+    margin: 0 80px;
+  }
+
+  .title-area {
+    margin-bottom: 30px;
+  }
+
+  /* course end  */
+
+  /* footer start  */
+
+  .site-text {
+    margin: 0 70px;
+  }
+
+  /* footer end  */
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
@@ -117,10 +150,23 @@
 
   /* course start  */
 
+  .single-course {
+    margin: 0;
+  }
+
   .sec-title {
     font-size: var(--font-28);
     line-height: 48px;
   }
 
   /* course end  */
+
+  /* footer start  */
+
+  .site-text {
+    margin: 0;
+    text-align: start;
+  }
+
+  /* footer end  */
 }
